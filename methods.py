@@ -37,7 +37,7 @@ class WebMethods:
         :param data:
         """
         self.sheet.cell(row, column).value = data
-        # self.workbook.save(self.fileName)
+        self.workbook.save(self.fileName)
 
 
     def enterText(self, driver, locator, textValue):
